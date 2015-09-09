@@ -3,6 +3,7 @@ A Python utility for evenly downsampling polymorphisms from a population of sequ
 
 # Procedure
 
+1. Start with a sequence alignment.
 1. Collate together all positions that show polymorphisms, i.e. not 100% conserved.
 2. Randomly pick one position.
 3. At that position, randomly pick one of the polymorphisms.
